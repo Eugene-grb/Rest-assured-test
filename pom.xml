@@ -23,7 +23,10 @@
         <junit-jupiter>5.8.0</junit-jupiter>
         <rest-assured>4.4.0</rest-assured>
         <json>20210307</json>
-
+        <jackson-annotations>2.12.5</jackson-annotations>
+        <jackson-databind>2.12.5</jackson-databind>
+        <lombok>1.18.20</lombok>
+        <assertj-core>3.20.2</assertj-core>
     </properties>
 
     <dependencies>
@@ -42,6 +45,29 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>${json}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson-annotations}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson-databind}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj-core}</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
