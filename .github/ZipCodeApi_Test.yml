@@ -22,5 +22,5 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: maven
-    - name: REST Assured IceAndFireCharactersApi_Test
-      run: mvn clean test
+    - name: REST Assured ZipCodeApi_Test
+      run: mvn clean test -Dtest= ZipCodeApi_Test
