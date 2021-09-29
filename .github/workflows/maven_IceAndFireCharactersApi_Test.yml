@@ -23,4 +23,4 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: REST Assured IceAndFireCharactersApi_Test
-      run: mvn clean test -Dtest= IceAndFireCharactersApi_Test
+      run: mvn clean test
