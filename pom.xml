@@ -17,7 +17,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <maven-compiler-plugin>3.8.1</maven-compiler-plugin>
-        <maven-surefire-plugin>2.22.2</maven-surefire-plugin>
+        <maven-surefire-plugin>3.0.0-M5</maven-surefire-plugin>
 
         <!-- DEPENDENCIES -->
         <junit-jupiter>5.8.0</junit-jupiter>
