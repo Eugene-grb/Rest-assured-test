@@ -23,4 +23,4 @@ jobs:
         distribution: 'adopt'
         cache: maven
     - name: REST Assured ZipCodeApi_Test
-      run: mvn clean test -Dtest= ZipCodeApi_Test
+      run: mvn clean test -Dtest= ZipCodeApi_Test#getZipCodeAndCheckStateName
