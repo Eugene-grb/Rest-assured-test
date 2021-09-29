@@ -50,7 +50,7 @@ public class ZipCodeApi_Test {
 
     // Десериализация json и проверка его на соответствие заданным значениям
     @ParameterizedTest
-    @MethodSource({"zipCodes"})
+    @MethodSource("zipCodes")
     public void deserializeJsonZipCodeResponse(String zipCode, String state, String placeName) {
         List<ZipCodePojo> zipCodes = given()
                 .baseUri(URL)
